@@ -1,0 +1,11 @@
+numpy
+scipy
+openpyxl
+jax
+jaxopt
+uncertainties
+streamable
+seaborn
+matplotlib
+tqdm
+pandas
