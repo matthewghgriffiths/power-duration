@@ -9,3 +9,5 @@ seaborn
 matplotlib
 tqdm
 pandas
+diffrax
+optimistix
