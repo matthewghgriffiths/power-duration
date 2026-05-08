@@ -267,7 +267,7 @@ def _fit_posteriors(
 
 
 @partial(jax.jit, static_argnames=['func', 'weight', 'jac', 'n_iter', 'init'])
-def _fit_posterior(y, p, t, *args, prior=prior, func=func, **kws):
+def _fit_posterior(y, p, t, *args, prior, func, **kws):
     return _fit_posteriors(y, p, t, *args, prior=prior, func=func, **kws)[-1]
 
 
